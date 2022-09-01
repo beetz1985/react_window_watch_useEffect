@@ -1,5 +1,6 @@
 import React from "react"
-import WindowTracker from "./WindowTracker"
+///import WindowTracker from "./WindowTracker"
+import WindowTrackerTwo from "./WindowTrackerTwo";
 
 export default function App() {
     /**
@@ -19,7 +20,8 @@ export default function App() {
     return (
         <div className="container">
             <button onClick={handleToggle}>Toggle WindowTracker</button>
-            {show && <WindowTracker />}
+            {/* {show && <WindowTracker />} */}
+            {show && <WindowTrackerTwo />}
         </div>
     )
 }
